@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test Page!</title>
+</head>
+<style>
+	/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+   header:before{
+		font-size: 20px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+	
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
+	h1 {
+		text-align: center;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		font-size: 40px;
+		color:#AC4304;
+	}
+	#page{
+		width:70%;
+		height:100%;	
+		margin-left: auto;
+		margin-right: auto;
+		background-color:#1EB2B5;
+		border-right: 2px solid black;
+		border-left: 2px solid black;
+	}
+	header{
+		text-align: center;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		font-size: 40px;
+		color:orangered;
+	}
+	#navbar{
+         margin: 10px;
+		top:50px;
+		width:100%
+	     left:100px;		
+	}
+	ul {
+        list-style-type: none;
+         margin: 0px;
+        padding: 0;
+         overflow: hidden;
+          background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+li a:hover {
+  background-color: #111;
+}
+	#form-grp1{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		top:100px;
+		background-color:cadetblue;
+		width:70%;
+		align-content: center;
+	}
+	#form {
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		font-size: 22px;
+		margin-left: inherit;
+		padding-left:40px;
+		text-align: center;
+	}
+	span {
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		font-size: 22px;
+	}
+	input{
+		font-size: 15px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		border-radius:4px;
+		background:transparent;
+		color:black;
+	}
+	#subject {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		font-size:20px;
+		background-color: coral;
+		border :2px solid #89E411;
+	}
+	#subject:hover{
+		 background-color: lightgreen;
+		transition-duration: 4s;
+	}
+</style>	
+<body>
+<div id="page">
+		<header>THE TITLE</header>
+		<div id="navbar">
+		  <ul>
+			  <li><a href="#">HOME</a></li>
+			  <li><a href="#">NEWS</a></li>
+			  <li><a href="#">SIGN UP</a></li>
+			  <li><a href="#">LOGIN</a></li>
+			  <li><a href="#">ABOUT</a></li>
+		  </ul>	  
+    </div>	
+	<div id="form-grp1">
+		<h1>SIGNUP FORM </h1>
+		<form id="form">
+			<lable><span>Enter Your Name<span></lable><br>
+			<input type="text" name="name" placeholder="Enter Name"><br>
+				<lable><span>Enter Your Phone Number<span></lable><br>
+			<input type="number" name="number" placeholder="Enter phone number"><br>
+					<lable><span>Enter email-id<span></lable><br>
+			<input type="email" name="email" placeholder="Enter email-id"><br>
+						<lable><span>Enter Your Name<span></lable><br>
+			<input type="text" name="name" placeholder="Enter Password"><br>
+							<lable><span>Confirm Password<span></lable><br>
+			<input type="password" name="Cpass" placeholder="Confirm Password"><br>
+	<lable><span>Date of Birth<span></lable><br>
+			<input type="date" name="date" placeholder="">	<br>	
+
+
+  
+ 
+    <h4>Select your department</h4>
+    <label for="subject">Departments</label><br>
+    <select id="subject" name="subject">
+      <option value="cs">Computer Science</option>
+      <option value="me">Mechanical Engineering</option>
+      <option value="ee">Electrical Engineering</option>
+		 <option value="ec">Electronics and Electrical Engineering</option>
+		 <option value="ce">Chemical Engineering</option>
+		 <option value="cv">Civil Engineering</option>
+    </select>
+  
+  
+ 
+  
+  <div>
+    <input type="submit" value="Submit" id="submit" />
+  </div>
+</form>
+		</form>	
+	</div>	
+</div>	
+</body>
+</html>
